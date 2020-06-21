@@ -6,7 +6,7 @@ import tkinter
 from tkinter import *
 
 
-client = Helix(client_id='cw5x2lg0fyft95og6h5k4lx0j324vo',bearer_token='m1zen5y92uys3mgnb0iznjy3u8otq3')#Need to grab twitch client ID
+client = Helix(client_id='',bearer_token='')#Need to grab twitch client ID
 count=20#Change this number to change the amount of streamers the twitch API pulls
 game_name="warframe"
 f=input("write game name : ")
